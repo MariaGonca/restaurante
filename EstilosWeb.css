@@ -1,0 +1,198 @@
+.header{
+    background-color: white;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    position: fixed;
+    z-index: 7;
+}
+
+.body{
+    background-image: url(madera3.jpg);
+    background-repeat: repeat;
+}
+.main{
+    padding-top: 8rem;
+}
+
+.navbar-toggler{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.navbar-brand{
+    margin-left: 3.5rem;
+    margin-right: 3rem;
+}
+.navbar ul li{
+    float: right;
+}
+.navbar ul li{
+    margin: 0.5rem;
+}
+
+.navbar ul li a{
+    color: brown;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover{
+    background-color: firebrick;
+    color: white;
+}
+
+.carta img{
+    margin: 2.5rem 0;
+    width: 480px;
+    height: 380px;
+    border-radius: 17px;
+    box-shadow: 0 9px 9px #310a0a5d;
+}
+
+.carta img:hover{
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 10px 10px black;
+    transition: 0.4s linear;
+}
+.primerplato{
+    margin: 0 5rem;
+    
+}
+.carne{
+    float: left;
+}
+
+.pescado{
+    float: right;
+}
+
+footer{
+
+    background-color: rgb(248, 198, 157);
+    padding: 2rem;
+    text-align: left;
+}
+
+
+.ofertas{
+    font-family: fantasy;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 8rem;
+    background-image: url(ofertas.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat;
+    color: white;
+    margin-bottom: 5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ofertas img{
+    width: 100%;
+}
+
+.ofertas h1{
+    padding-top: 1.3rem;
+    padding-bottom: 1.2rem;
+}
+
+.ofertas h2{
+    text-decoration: underline;
+}
+
+.ofertas p{
+    font-size: large;
+}
+
+.modal {
+    color: black ;
+}
+
+.pedido{
+    color: beige;
+    text-align: center;
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+
+.btn-primary{
+    background-color: brown;
+    color: white;
+    border-color: white;
+}
+
+.video1{
+    width: 100%;
+    height: auto;
+}
+
+
+.video{
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+@media (max-width: 1153px){
+
+    .primerplato {
+        flex-wrap: wrap;
+        vertical-align: middle;   
+    }
+
+    .carne{
+        float: none;
+    }
+
+    .pescado{
+        float: none;
+    }
+}
+
+@media (max-width: 651px){
+
+    .carta{
+        align-items: center;
+        margin: 0 0;
+    }
+
+    .primerplato{
+        margin: 0;
+    }
+
+    .ofertas{
+        background-image: url(back3.jpg) ;
+    }
+  
+}
+
+@media (max-width: 485px){
+    .carta img{
+        width: 100%;
+        height: auto;
+    }
+    .carta img:hover{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar-brand{
+        margin-left: 0.3rem;
+    }
+}
+
